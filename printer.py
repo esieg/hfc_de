@@ -11,7 +11,7 @@ class Printer():
     def ausgabe(self):
         '''gebe das Resultat aus'''
         print('RESULTAT:\n\n',
-        F'für einen Kredit über {self.kredit} über {self.laufzeit} ergibt sich eine',
+        f'für einen Kredit über {self.kredit} über {self.laufzeit} ergibt sich eine',
         f'monatliche Gesamtbelastung: {self.kreditrate + self.etf_rate:.2f}€.\n',
         f'Diese setzt sich zusammen aus Kredit und ETF: {self.kreditrate:.2f}€ + {self.etf_rate:.2f}€\n',
         f'Wobei ein Restkredit von {self.restkredit:.2f}€ einem Guthaben von {self.guthaben:.2f}€ gegenübersteht.\n',
